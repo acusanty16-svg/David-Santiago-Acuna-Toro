@@ -156,7 +156,6 @@ section#hobbies ul>li>img {
     width: 100%;
     height: 250px;
     object-fit: cover;
-    padding: var(--spacing);
     border: none;
     border-radius: var(--border-radius);
 
@@ -216,10 +215,9 @@ section#religion ul>li>img {
     width: 100%;
     height: 250px;
     object-fit: cover;
-    padding: var(--spacing);
+
     border: none;
     border-radius: var(--border-radius);
-    box-shadow: var(--shadow-box-shadow);
 }
 
 section#religion ul>li>iframe {
@@ -228,6 +226,8 @@ section#religion ul>li>iframe {
     height: 250px;
     object-fit: cover;
     padding: var(--spacing);
+    border-radius: var(--border-radius);
+    box-shadow: var(--shadow-box-shadow);
 
 }
 
@@ -273,7 +273,6 @@ section#lectura ul>li>img {
     width: 100%;
     height: 250px;
     object-fit: cover;
-    padding: var(--spacing);
     border: none;
     border-radius: var(--border-radius);
 
