@@ -132,6 +132,20 @@ section#hobbies h3 {
     padding-top: 40px;
 }
 
+section#hobbies p {
+    display: flex;
+    width: 100%;
+    height: 120px;
+    justify-content: center;
+    align-items: center;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    padding: 0 500px;
+    text-align: justify;
+    margin-bottom: var(--spacing);
+
+}
+
 section#hobbies>ul>li>figcaption {
     padding-bottom: 80px;
 }
