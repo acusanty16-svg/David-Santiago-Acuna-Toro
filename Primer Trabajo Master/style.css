@@ -151,9 +151,12 @@ section#hobbies>ul>li>figcaption {
 
 section#hobbies ul {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-    text-align: center;
-
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 20px;
 }
 
 section#hobbies li {
@@ -206,8 +209,13 @@ section#religion>ul>li>figcaption {
 
 section#religion ul {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
     text-align: center;
+    gap: 30px;
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 20px;
 
 }
 
@@ -259,8 +267,13 @@ section#lectura>ul>li>figcaption {
 
 section#lectura ul {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
     text-align: center;
+    gap: 30px;
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 20px;
 
 }
 
@@ -303,7 +316,7 @@ section#aspiraciones h2 {
 
 section#aspiraciones ul {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
     text-align: center;
 }
 
