@@ -133,16 +133,15 @@ section#hobbies h3 {
 }
 
 section#hobbies p {
-    display: flex;
+
     width: 100%;
     height: 120px;
-    justify-content: center;
     align-items: center;
     font-family: "Roboto", sans-serif;
     font-size: 20px;
-    padding: 0 500px;
-    text-align: justify;
-    margin-bottom: var(--spacing);
+    padding: 50px;
+    margin: 0 0 50px 0;
+
 
 }
 
@@ -152,7 +151,7 @@ section#hobbies>ul>li>figcaption {
 
 section#hobbies ul {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     text-align: center;
 
 }
@@ -166,13 +165,10 @@ section#hobbies li {
 
 
 section#hobbies ul>li>img {
-
     width: 100%;
-    height: 250px;
+    aspect-ratio: 4 / 3;
     object-fit: cover;
-    border: none;
     border-radius: var(--border-radius);
-
 }
 
 section#hobbies h3:hover {
@@ -210,7 +206,7 @@ section#religion>ul>li>figcaption {
 
 section#religion ul {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     text-align: center;
 
 }
@@ -225,12 +221,9 @@ section#religion li {
 
 
 section#religion ul>li>img {
-
     width: 100%;
-    height: 250px;
+    aspect-ratio: 4 / 3;
     object-fit: cover;
-
-    border: none;
     border-radius: var(--border-radius);
 }
 
@@ -266,7 +259,7 @@ section#lectura>ul>li>figcaption {
 
 section#lectura ul {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     text-align: center;
 
 }
@@ -285,9 +278,8 @@ section#lectura li {
 section#lectura ul>li>img {
 
     width: 100%;
-    height: 250px;
+    aspect-ratio: 4 / 3;
     object-fit: cover;
-    border: none;
     border-radius: var(--border-radius);
 
 }
